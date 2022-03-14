@@ -1,4 +1,5 @@
-module hw2 (A,B,C0,C4,S);
+//4bit full adder
+module lab3 (A,B,C0,C4,S);
     input [3:0]A,B;
     input C0;
     wire [3:0]C;
