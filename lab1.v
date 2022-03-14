@@ -1,4 +1,4 @@
-module hw1 (D0,D1,D2,D3,x,y,V);
+module lab1 (D0,D1,D2,D3,x,y,V);
 
 input D0,D1,D2,D3;
 output x,y,V;
