@@ -1,3 +1,4 @@
+//magnitude_comparator
 module comparator (outB,outA,out0,A,B);
 	input A,B;
 	output outA,outB,out0;
@@ -9,7 +10,7 @@ module comparator (outB,outA,out0,A,B);
 	nor (out0,outA,outB);
 endmodule 
 
-module magnitude_comparator (D0,D1,D2,A0,A1,A2,A3,B0,B1,B2,B3);
+module lab2 (D0,D1,D2,A0,A1,A2,A3,B0,B1,B2,B3);
 	input A0,A1,A2,A3,B0,B1,B2,B3;
 	output D0,D1,D2;
 	wire ca0,ca1,ca2,ca3,cb0,cb1,cb2,cb3,X0,X1,X2,X3;
